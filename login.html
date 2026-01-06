@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample.css">
+
+</head>
+<body>
+    username:<input type="number" id="username"><br>
+    password:<input type="number" id="password"><br>
+    otp:<input type="number" id="authentication"><br>
+    <button onclick="check()">check</button>
+    
+
+</body>
+<script>
+function check(){
+let username=document.getElementById("username").value
+let password=document.getElementById("password").value
+let authentication=document.getElementById("authentication").value
+if(username=="9391740996" && password=="12345")
+{
+   
+   alert("login successful")
+}
+// elif(code==1234)
+// {
+//     alert("login successful")
+// }
+else{
+    alert("invalid password")
+}
+}
+</script>
+</html>
